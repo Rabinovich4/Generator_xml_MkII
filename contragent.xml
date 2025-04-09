@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eruzContractor xmlns="http://zakupki.gov.ru/eruz/integration/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmn="http://zakupki.gov.ru/eruz/common/1" xmlns:eruz="http://zakupki.gov.ru/eruz/types/1" xsi:schemaLocation="http://zakupki.gov.ru/eruz/integration/1 C:\Users\Pavluchenko\Desktop\LKP-IN\~1\eruzIntegration.xsd">
+    <index>
+        <id>5e3941f1-0278-4821-8daa-aad0325c90a5</id>
+        <sender>OOC</sender>
+        <receiver>ETP_GPB</receiver>
+        <createDateTime>2018-12-17T18:18:47.0Z</createDateTime>
+        <objectType>ERUZ</objectType>
+        <objectId>874563219</objectId>
+        <signature type="CAdES-BES">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</signature>
+        <mode>TEST</mode>
+    </index>
+    <data schemeVersion="9.0">
+        <eruz:id>3</eruz:id>
+        <eruz:versionNumber>0</eruz:versionNumber>
+        <eruz:commonInfo>
+            <eruz:registryNum>321987654</eruz:registryNum>
+            <eruz:registryDT>2018-12-31T09:30:47.0Z</eruz:registryDT>
+            <eruz:startRegDate>2018-12-31</eruz:startRegDate>
+            <eruz:endRegDate>2029-12-31</eruz:endRegDate>
+        </eruz:commonInfo>
+        <eruz:contractorInfo>
+            <eruz:legalEntityRFInfo>
+                <eruz:legalEntityRFDataInfo>
+                    <eruz:fullName>ООО "Еруз 13"</eruz:fullName>
+                    <eruz:factAdressInfo>
+                        <eruz:kladrCode>770000000002012</eruz:kladrCode>
+                        <eruz:factAdress>Москва, Самаркандский бульвар, 32</eruz:factAdress>
+                        <eruz:regionCode>77</eruz:regionCode>
+                    </eruz:factAdressInfo>
+                    <eruz:OKVEDs>
+                        <eruz:OKVED>
+                            <cmn:code>01</cmn:code>
+                            <cmn:name>Сельское хозяйство, охота и предоставление услуг в этих областях</cmn:name>
+                        </eruz:OKVED>
+                    </eruz:OKVEDs>
+                    <eruz:INN>7325997060</eruz:INN>
+                    <eruz:KPP>732501001</eruz:KPP>
+                    <eruz:regDate>2017-08-13</eruz:regDate>
+                    <eruz:OGRN>1147300000770</eruz:OGRN>
+                    <eruz:isSMP>true</eruz:isSMP>
+                    <eruz:OKOPF>
+                        <cmn:code>12000</cmn:code>
+                        <cmn:singularName>Товарищества на вере (коммандитные товарищества)</cmn:singularName>
+                    </eruz:OKOPF>
+                    <eruz:timeZoneInfo>
+                        <cmn:name>UTC+00:00</cmn:name>
+                        <cmn:differenceTime>+0</cmn:differenceTime>
+                    </eruz:timeZoneInfo>
+                    <eruz:maxPrice>100011000.0</eruz:maxPrice>
+                    <eruz:EGRULStatementInfo>
+                        <cmn:fileName>Наименование файла</cmn:fileName>
+                        <cmn:fileSize>122</cmn:fileSize>
+                        <cmn:docDescription>Описание</cmn:docDescription>
+                        <cmn:docDate>2018-12-17T09:30:47.0Z</cmn:docDate>
+                        <cmn:url>http://eis5.roskazna.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=7D5AAB0EAFF8673DE053171F860A8E14</cmn:url>
+                    </eruz:EGRULStatementInfo>
+                    <eruz:isParticipant>true</eruz:isParticipant>
+                    <eruz:isSubcontractor>false</eruz:isSubcontractor>
+                </eruz:legalEntityRFDataInfo>
+                <eruz:informationPersons>
+                    <eruz:informationPersonInfo>
+                        <eruz:nameInfo>
+                            <cmn:lastName>Да</cmn:lastName>
+                            <cmn:firstName>Сколько</cmn:firstName>
+                            <cmn:middleName>Можно</cmn:middleName>
+                        </eruz:nameInfo>
+                        <eruz:position>Ведущий специалист</eruz:position>
+                        <eruz:identityDocInfo>
+                            <eruz:passportRFInfo>
+                                <cmn:series>7458</cmn:series>
+                                <cmn:number>254856</cmn:number>
+                                <cmn:issueDate>25017-08-13</cmn:issueDate>
+                                <cmn:issuedBy>УФМС по Пушкинскому району</cmn:issuedBy>
+                                <cmn:divCode>0545512</cmn:divCode>
+                                <cmn:birthDate>1987-08-15</cmn:birthDate>
+                                <cmn:birthPlace>г. Москва</cmn:birthPlace>
+                            </eruz:passportRFInfo>
+                        </eruz:identityDocInfo>
+                        <eruz:INN>258545454578</eruz:INN>
+                    </eruz:informationPersonInfo>
+                </eruz:informationPersons>
+                <eruz:contactInfo>
+                    <cmn:email>eruz-elkkkkk13@mailforspam.com</cmn:email>
+                    <cmn:notificationEmail>eruz-elkkkkk13@mailforspam.com</cmn:notificationEmail>
+                    <cmn:phone>89624587853</cmn:phone>
+                    <eruz:postAdress>ул. Маршала Новикова, д. 5</eruz:postAdress>
+                </eruz:contactInfo>
+                <eruz:attachmentsInfo>
+                    <eruz:foundingDocsCopyInfo>
+                        <cmn:attachmentInfo>
+                            <cmn:fileName>Наименование.docx</cmn:fileName>
+                            <cmn:fileSize>12</cmn:fileSize>
+                            <cmn:docDescription>Описание</cmn:docDescription>
+                            <cmn:docDate>2018-12-17T09:30:47.0Z</cmn:docDate>
+                            <cmn:url>http://eis5.roskazna.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=7D5AAB0EAFF8673DE053171F860A8E142</cmn:url>
+                        </cmn:attachmentInfo>
+                    </eruz:foundingDocsCopyInfo>
+                    <eruz:consentDecisionsInfo>
+                        <cmn:attachmentInfo>
+                            <cmn:fileName>Наименование.docx</cmn:fileName>
+                            <cmn:fileSize>12</cmn:fileSize>
+                            <cmn:docDescription>Описание</cmn:docDescription>
+                            <cmn:docDate>2018-12-17T09:30:47.0Z</cmn:docDate>
+                            <cmn:url>http://eis5.roskazna.ru/44fz/filestore/public/1.0/download/priz/file.html?uid=7D5AAB0EAFF8673DE053171F860A8E14</cmn:url>
+                        </cmn:attachmentInfo>
+                    </eruz:consentDecisionsInfo>
+                </eruz:attachmentsInfo>
+            </eruz:legalEntityRFInfo>
+        </eruz:contractorInfo>
+        <eruz:informationType>R</eruz:informationType>
+        <eruz:printFormInfo>
+            <cmn:url>http://zakupki.gov.ru/epz/contract/printForm/view.html?contractInfoId=45866401</cmn:url>
+        </eruz:printFormInfo>
+    </data>
+</eruzContractor>
