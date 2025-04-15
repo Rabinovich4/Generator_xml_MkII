@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <eruzContractor xmlns="http://zakupki.gov.ru/eruz/integration/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmn="http://zakupki.gov.ru/eruz/common/1" xmlns:eruz="http://zakupki.gov.ru/eruz/types/1" xsi:schemaLocation="http://zakupki.gov.ru/eruz/integration/1 C:\Users\Pavluchenko\Desktop\LKP-IN\~1\eruzIntegration.xsd">
     <index>
         <id>5e3941f1-0278-4821-8daa-aad0325c90a5</id>
@@ -6,7 +6,7 @@
         <receiver>ETP_GPB</receiver>
         <createDateTime>2018-12-17T18:18:47.0Z</createDateTime>
         <objectType>ERUZ</objectType>
-        <objectId>874563219</objectId>
+        <objectId>204921356</objectId>
         <signature type="CAdES-BES">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</signature>
         <mode>TEST</mode>
     </index>
@@ -14,7 +14,7 @@
         <eruz:id>3</eruz:id>
         <eruz:versionNumber>0</eruz:versionNumber>
         <eruz:commonInfo>
-            <eruz:registryNum>321987654</eruz:registryNum>
+            <eruz:registryNum>562448266</eruz:registryNum>
             <eruz:registryDT>2018-12-31T09:30:47.0Z</eruz:registryDT>
             <eruz:startRegDate>2018-12-31</eruz:startRegDate>
             <eruz:endRegDate>2029-12-31</eruz:endRegDate>
@@ -22,7 +22,7 @@
         <eruz:contractorInfo>
             <eruz:legalEntityRFInfo>
                 <eruz:legalEntityRFDataInfo>
-                    <eruz:fullName>ООО "Еруз 13"</eruz:fullName>
+                    <eruz:fullName>Еруз 14</eruz:fullName>
                     <eruz:factAdressInfo>
                         <eruz:kladrCode>770000000002012</eruz:kladrCode>
                         <eruz:factAdress>Москва, Самаркандский бульвар, 32</eruz:factAdress>
@@ -81,8 +81,8 @@
                     </eruz:informationPersonInfo>
                 </eruz:informationPersons>
                 <eruz:contactInfo>
-                    <cmn:email>eruz-elkkkkk13@mailforspam.com</cmn:email>
-                    <cmn:notificationEmail>eruz-elkkkkk13@mailforspam.com</cmn:notificationEmail>
+                    <cmn:email>eruz-elkkkkk14@mailforspam.com</cmn:email>
+                    <cmn:notificationEmail>eruz-elkkkkk14@mailforspam.com</cmn:notificationEmail>
                     <cmn:phone>89624587853</cmn:phone>
                     <eruz:postAdress>ул. Маршала Новикова, д. 5</eruz:postAdress>
                 </eruz:contactInfo>
