@@ -11,6 +11,6 @@ def get_random_int(number_of_digits: int = 9) -> str:
     return new_random_int.lstrip("0").ljust(number_of_digits, random.choice(digits))
 
 
-inn = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:INN/text()', namespaces=namespaces)
-kpp = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:KPP/text()', namespaces=namespaces)
-ogrn = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:OGRN/text()', namespaces=namespaces)
+# inn = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:INN/text()', namespaces=namespaces)
+# kpp = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:KPP/text()', namespaces=namespaces)
+# ogrn = parsing_xml_file().xpath('.//eruz:legalEntityRFDataInfo/eruz:OGRN/text()', namespaces=namespaces)
