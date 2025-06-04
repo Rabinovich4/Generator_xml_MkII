@@ -6,7 +6,7 @@
         <receiver>ETP_GPB</receiver>
         <createDateTime>2018-12-17T18:18:47.0Z</createDateTime>
         <objectType>ERUZ</objectType>
-        <objectId>663725311</objectId>
+        <objectId>426567666</objectId>
         <signature type="CAdES-BES">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</signature>
         <mode>TEST</mode>
     </index>
@@ -14,7 +14,7 @@
         <eruz:id>3</eruz:id>
         <eruz:versionNumber>0</eruz:versionNumber>
         <eruz:commonInfo>
-            <eruz:registryNum>783094610</eruz:registryNum>
+            <eruz:registryNum>415288872</eruz:registryNum>
             <eruz:registryDT>2018-12-31T09:30:47.0Z</eruz:registryDT>
             <eruz:startRegDate>2018-12-31</eruz:startRegDate>
             <eruz:endRegDate>2029-12-31</eruz:endRegDate>
@@ -22,7 +22,7 @@
         <eruz:contractorInfo>
             <eruz:legalEntityRFInfo>
                 <eruz:legalEntityRFDataInfo>
-                    <eruz:fullName>Еруз 33</eruz:fullName>
+                    <eruz:fullName>павы 2</eruz:fullName>
                     <eruz:factAdressInfo>
                         <eruz:kladrCode>770000000002012</eruz:kladrCode>
                         <eruz:factAdress>Москва, Самаркандский бульвар, 32</eruz:factAdress>
@@ -34,10 +34,10 @@
                             <cmn:name>Сельское хозяйство, охота и предоставление услуг в этих областях</cmn:name>
                         </eruz:OKVED>
                     </eruz:OKVEDs>
-                    <eruz:INN>123</eruz:INN>
-                    <eruz:KPP>123</eruz:KPP>
+                    <eruz:INN>914586807</eruz:INN>
+                    <eruz:KPP>204163050</eruz:KPP>
                     <eruz:regDate>2017-08-13</eruz:regDate>
-                    <eruz:OGRN>123</eruz:OGRN>
+                    <eruz:OGRN>2727845641775</eruz:OGRN>
                     <eruz:isSMP>true</eruz:isSMP>
                     <eruz:OKOPF>
                         <cmn:code>12000</cmn:code>
@@ -81,8 +81,8 @@
                     </eruz:informationPersonInfo>
                 </eruz:informationPersons>
                 <eruz:contactInfo>
-                    <cmn:email>eruz-elkkkkk33@mailforspam.com</cmn:email>
-                    <cmn:notificationEmail>eruz-elkkkkk33@mailforspam.com</cmn:notificationEmail>
+                    <cmn:email>eruz-elkkkkk2@mailforspam.com</cmn:email>
+                    <cmn:notificationEmail>eruz-elkkkkk2@mailforspam.com</cmn:notificationEmail>
                     <cmn:phone>89624587853</cmn:phone>
                     <eruz:postAdress>ул. Маршала Новикова, д. 5</eruz:postAdress>
                 </eruz:contactInfo>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<as2:eruzMasterData xmlns="http://zakupki.gov.ru/eruz/integration/1" xmlns:base="http://zakupki.gov.ru/eruz/base/1" xmlns:cmn="http://zakupki.gov.ru/eruz/common/1" xmlns:eruz="http://zakupki.gov.ru/eruz/types/1" xmlns:as2="http://zakupki.gov.ru/eruz/integration/1" xmlns:int="http://zakupki.gov.ru/eruz/internal/1" xmlns:bus="http://zakupki.gov.ru/busMonitoring" xmlns:sm="http://zakupki.gov.ru/eruz/SMTypes/1" xmlns:ns2="http://zakupki.gov.ru/eruz/common/1">
+   <as2:index>
+      <as2:id>c999a884-70ed-46ed-bf56-e29f184998a5</as2:id>
+      <as2:sender>OOC</as2:sender>
+      <as2:receiver>ETP_GPB</as2:receiver>
+      <as2:createDateTime>2023-10-01T20:29:18Z</as2:createDateTime>
+      <as2:objectType>ERUZ</as2:objectType>
+      <as2:objectId>c3367ca4-2d3d-4f5a-bd64-0f2b87012fa5</as2:objectId>
+      <as2:signature type="CAdES-BES"/>
+      <as2:mode>TEST</as2:mode>
+   </as2:index>
+   <as2:data schemeVersion="13.3">
+      <ns3:nsiUser xmlns:ns3="http://zakupki.gov.ru/eruz/nsi/1">
+         <ns3:userId>275406504</ns3:userId>
+         <ns3:commonInfo>
+            <ns3:regDate>2019-07-23+03:00</ns3:regDate>
+            <ns3:modificationDate>2023-06-20T19:50:13.371+03:00</ns3:modificationDate>
+            <ns3:status>A</ns3:status>
+         </ns3:commonInfo>
+         <ns3:userInfo>
+            <ns3:nameInfo>
+               <ns2:lastName>dsdd</ns2:lastName>
+               <ns2:firstName>kjholu</ns2:firstName>
+               <ns2:middleName>hg</ns2:middleName>
+            </ns3:nameInfo>
+         </ns3:userInfo>
+         <ns3:contractorsInfo>
+            <ns3:contractorInfo>
+               <ns2:regNum>839611187</ns2:regNum>
+               <ns2:fullName>ООО "Еруз 20"</ns2:fullName>
+               <ns3:position>Заместитель генерального директора</ns3:position>
+               <ns3:userAuthoritysInfo>
+                  <ns3:userAuthority>AS</ns3:userAuthority>
+                  <ns3:userAuthority>A</ns3:userAuthority>
+               </ns3:userAuthoritysInfo>
+               <ns3:rightsInfo>
+                  <ns3:rightInfo>
+                     <ns2:code>LKP-SSE</ns2:code>
+                     <ns2:name>Подписание проекта контракта, протокола разногласий, отказа от заключения контракта участником закупки на электронной площадке</ns2:name>
+                  </ns3:rightInfo>
+                  <ns3:rightInfo>
+                     <ns2:code>LKP-EOA</ns2:code>
+                     <ns2:name>Право на определение иных лиц, уполномоченных на осуществление действий в единой информационной системе и (или) на электронной площадке от имени участника закупок</ns2:name>
+                  </ns3:rightInfo>
+                  <ns3:rightInfo>
+                     <ns2:code>LKP-PRDO</ns2:code>
+                     <ns2:name>Размещение информации и документов в Едином реестре участников закупок</ns2:name>
+                  </ns3:rightInfo>
+                  <ns3:rightInfo>
+                     <ns2:code>LKP-SAEP</ns2:code>
+                     <ns2:name>Подача заявок на участие в определении поставщиков (подрядчиков, исполнителей), окончательных предложений на электронной площадке</ns2:name>
+                  </ns3:rightInfo>
+                  <ns3:rightInfo>
+                     <ns2:code>LKP-UR</ns2:code>
+                     <ns2:name>Регистрация и администрирование пользователей</ns2:name>
+                  </ns3:rightInfo>
+               </ns3:rightsInfo>
+               <ns3:isActual>true</ns3:isActual>
+            </ns3:contractorInfo>
+         </ns3:contractorsInfo>
+      </ns3:nsiUser>
+   </as2:data>
+</as2:eruzMasterData>
