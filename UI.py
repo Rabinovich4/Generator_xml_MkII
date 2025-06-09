@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from lxml import etree
 from tkinter import filedialog
-from new_values import get_random_int
+from new_values import get_random_int, get_random_string
 from parsing_xml import namespaces, parsing_contragent_xml_file, parsing_user_xml_file
 
 # Начало окна ткинтера
@@ -37,6 +37,7 @@ label = Label(kontragent_tab, text='Введите Полное наименов
 label.pack()
 entry_full_name = ttk.Entry(kontragent_tab)
 entry_full_name.pack()
+
 
 class ContragentParams:
     def __init__(self):
@@ -111,6 +112,7 @@ class ContragentParams:
         # Сохранение в файл output_file внутри проекта
         tree.write(output_file, pretty_print=True, xml_declaration=True, encoding='UTF-8')
 
+
 # Создаем экземпляр класса ContragentParams
 contragent_params_data = ContragentParams()
 
@@ -138,6 +140,7 @@ label.pack()
 entry_middle_name = ttk.Entry(user_tab)
 entry_middle_name.pack()
 
+
 class UserParams:
     def __init__(self):
         self.root = parsing_user_xml_file()
@@ -145,19 +148,25 @@ class UserParams:
     def get_last_name(self):
         input_last_name = entry_last_name.get()
         if input_last_name == '':
-            raise ValueError('Поле не может быть пустым')
+            input_last_name = get_random_string(9)
+        else:
+            input_last_name = str(input_last_name)
         return input_last_name
 
     def get_first_name(self):
         input_first_name = entry_first_name.get()
         if input_first_name == '':
-            raise ValueError('Поле не может быть пустым')
+            input_first_name = get_random_string(9)
+        else:
+            input_first_name = str(input_first_name)
         return input_first_name
 
     def get_middle_name(self):
         input_middle_name = entry_middle_name.get()
         if input_middle_name == '':
-            raise ValueError('Поле не может быть пустым')
+            input_middle_name = get_random_string(9)
+        else:
+            input_middle_name = str(input_middle_name)
         return input_middle_name
 
     def refactor_user_data(self):
@@ -168,6 +177,10 @@ class UserParams:
         root.xpath('.//ns2:lastName', namespaces=namespaces)[0].text = str(self.get_last_name())
         root.xpath('.//ns2:firstName', namespaces=namespaces)[0].text = str(self.get_first_name())
         root.xpath('.//ns2:middleName', namespaces=namespaces)[0].text = str(self.get_middle_name())
+        contragent_reg_num = parsing_contragent_xml_file().xpath('.//eruz:registryNum/text()', namespaces=namespaces)[0]
+        root.xpath('.//ns2:regNum', namespaces=namespaces)[0].text = contragent_reg_num
+        contragent_full_name = parsing_contragent_xml_file().xpath('.//eruz:fullName/text()', namespaces=namespaces)[0]
+        root.xpath('.//ns2:fullName', namespaces=namespaces)[0].text = contragent_full_name
 
         # Сохранение файла юзера в директорию по выбору пользователя
         save_path = filedialog.asksaveasfilename(defaultextension=".xml",
@@ -177,6 +190,7 @@ class UserParams:
 
         # Сохранение в файл output_file внутри проекта
         tree.write(output_user_file, pretty_print=True, xml_declaration=True, encoding='UTF-8')
+
 
 # Создаем экземпляр класса UserParams
 user_params_data = UserParams()
